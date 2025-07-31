@@ -6,8 +6,8 @@ import requests
 
 # Load environment variables
 load_dotenv()
-ULTRAMSG_INSTANCE_ID = os.getenv("ULTRAMSG_INSTANCE_ID")
-ULTRAMSG_TOKEN = os.getenv("ULTRAMSG_TOKEN")
+ULTRAMSG_INSTANCE_ID = os.getenv("instance136410")
+ULTRAMSG_TOKEN = os.getenv("543omyb3vscmdjej")
 
 # Sample user profiles
 girls = [
@@ -40,7 +40,7 @@ def send_whatsapp_message(number: str, message: str) -> str:
 st.set_page_config(page_title="Rishty Wali Aunty", page_icon="💍")
 st.title(" Rishty Wali Aunty " \
 "AI Rishta Finder")
-st.markdown("Type what you're looking for — e.g., *Looking for a bride* or *Need a groom*.")
+st.markdown("Type what you're looking for  e.g., *Looking for a bride* or *Need a groom*.")
 
 with st.form("match_form"):
     name = st.text_input("Your Name")
